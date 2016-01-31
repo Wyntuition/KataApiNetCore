@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "AzureAndAsp46"
+  },
+  "hostingPlanName": {
+    "value": "Plan"
+  },
+  "siteLocation": {
+    "value": "East US 2"
+  },
+  "sku": {
+    "value": "Standard"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "cf549b34-d35c-455d-bce2-3a967fdde7e5"
+  },
+  "resourceGroup": {
+    "value": "biztalkNGBYTPE7QOJG2NI7I3V25F4D2LMHWJMPTR62JV54BILZQG7X6VKA-East-Asia"
+  }
+}

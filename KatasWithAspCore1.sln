@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularAndWebAPI", "AngularAndWebAPI\AngularAndWebAPI.csproj", "{5B6F3475-9E8A-4E56-BD70-62BCA225D4B5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KataApiAspNet5_OLD", "KataApiAspNet5\KataApiAspNet5_OLD.xproj", "{12038895-138B-4738-BAAF-9071D6BE3B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTests", "KataTests\KataTests.csproj", "{1267B7F0-8768-4DBE-B26F-7BC42575B8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWithAsp46", "AzureWithAsp46\AzureWithAsp46.csproj", "{1B89EE9C-61DC-4AC5-BC65-348E1908DE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWithAsp46.Tests", "AzureWithAsp46.Tests\AzureWithAsp46.Tests.csproj", "{EBD61A9D-F25A-4F31-83DB-0E63198F9C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{3193B48F-87DC-4393-8804-B2327648F48E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A964889D-E685-46A8-99D7-01AF351B133C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{AABBBD29-8055-4D69-A807-5DC6D00EE7A4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\AzureWithAsp46.json = PublishScripts\Templates\AzureWithAsp46.json
+		PublishScripts\Templates\AzureWithAsp46.param.dev.json = PublishScripts\Templates\AzureWithAsp46.param.dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38C0C2D1-538F-446A-9811-183317063A85}"
+	ProjectSection(SolutionItems) = preProject
+		KataApiAspNet5\global.json = KataApiAspNet5\global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KataApiNetCore", "KataApiNetCore\KataApiNetCore.xproj", "{BB4696F7-410F-4C9A-A995-13C168747793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B6F3475-9E8A-4E56-BD70-62BCA225D4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6F3475-9E8A-4E56-BD70-62BCA225D4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6F3475-9E8A-4E56-BD70-62BCA225D4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6F3475-9E8A-4E56-BD70-62BCA225D4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12038895-138B-4738-BAAF-9071D6BE3B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12038895-138B-4738-BAAF-9071D6BE3B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12038895-138B-4738-BAAF-9071D6BE3B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12038895-138B-4738-BAAF-9071D6BE3B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1267B7F0-8768-4DBE-B26F-7BC42575B8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1267B7F0-8768-4DBE-B26F-7BC42575B8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1267B7F0-8768-4DBE-B26F-7BC42575B8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1267B7F0-8768-4DBE-B26F-7BC42575B8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B89EE9C-61DC-4AC5-BC65-348E1908DE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B89EE9C-61DC-4AC5-BC65-348E1908DE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B89EE9C-61DC-4AC5-BC65-348E1908DE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B89EE9C-61DC-4AC5-BC65-348E1908DE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD61A9D-F25A-4F31-83DB-0E63198F9C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD61A9D-F25A-4F31-83DB-0E63198F9C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD61A9D-F25A-4F31-83DB-0E63198F9C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD61A9D-F25A-4F31-83DB-0E63198F9C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4696F7-410F-4C9A-A995-13C168747793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4696F7-410F-4C9A-A995-13C168747793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4696F7-410F-4C9A-A995-13C168747793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4696F7-410F-4C9A-A995-13C168747793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A964889D-E685-46A8-99D7-01AF351B133C} = {3193B48F-87DC-4393-8804-B2327648F48E}
+		{AABBBD29-8055-4D69-A807-5DC6D00EE7A4} = {3193B48F-87DC-4393-8804-B2327648F48E}
+	EndGlobalSection
+EndGlobal
